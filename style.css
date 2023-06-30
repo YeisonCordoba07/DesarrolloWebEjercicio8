@@ -23,7 +23,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-columns: auto 580px auto;
     grid-template-rows: 40px 30px;
-    border-style: solid;
     grid-gap: 10px;
     height: 100px;
     padding: 8px 10px 12px 10px;
@@ -67,8 +66,38 @@
 }
 .nav-item-6 > a{
     margin-left: 16px;
+    align-self: center;
 }
 .nav-item-6 > img{
     margin-left: 16px;
 }
 
+
+
+#section-novedades{
+    width: 100%;
+}
+.novedades{
+    width: 100%;
+    margin: auto;
+    background: url("/img/D_NQ_964867-MLA53990832632_022023-OO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    display: flex;  
+    justify-content: center;
+}
+
+.boton-novedades{
+    width: 6px;
+    height: 6px;
+    border-radius: 60px;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.355);
+    margin: 1.5px;
+    border-style: solid;
+    border-width: 1.5px;
+    margin-bottom: 15px;
+
+align-self: flex-end;
+}
