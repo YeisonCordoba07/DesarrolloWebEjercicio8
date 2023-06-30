@@ -8,9 +8,14 @@
     padding: 0;
     margin: 0;
     font-family: Roboto, Cartero, 'Helvetiva Neue', Helvetica, Arial, 'Sans Serif';
+    font-weight: 400;
+    line-height: 22px;
 
 }
 
+
+
+/* ---------------- |HEADER| ---------------- */
 
 #header{
     background-color: #FFF159;
@@ -98,6 +103,155 @@
     border-style: solid;
     border-width: 1.5px;
     margin-bottom: 15px;
-
-align-self: flex-end;
+    align-self: flex-end;
 }
+
+
+
+
+/* ---------------- |MAIN| ---------------- */
+main{
+    background: #EBEBEB;
+}
+section{
+    padding: 20px 0px;
+}
+section > :nth-child(1){
+
+}
+    
+
+/* ---------------- |class| ---------------- */
+.titulo-section{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 31px;
+}
+.enlace-subtitulo{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #3483FA;
+    margin-left: 16px;
+}
+
+
+.precio-articulo{
+    font-size: 23px;
+    line-height: 24px;
+    color: black;
+}
+.descuento-articulo{
+    font-size: 14px;
+    line-height: 16px;
+    color: #00c45f;
+    margin-left: 15px;
+}
+.envio-gratis{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #00c45f;
+}
+
+
+/* ---------------- |SECTION INFORMACION| ---------------- */
+
+#section-informacion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-section-informacion{
+    background: white;
+    width: var(--min-width);
+    height: 90px;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+}
+
+.caja-informacion{
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+.caja-informacion > img{
+    border-style: solid;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: lightgray;
+    height: 60%;
+    padding: 5px;
+}
+.caja-informacion > div{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.caja-informacion > div > a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0em;
+}
+
+
+
+/* ---------------- |SECTION OFERTAS| ---------------- */
+
+#section-ofertas{
+    width: 100%;
+}
+
+.contenido-section-ofertas{
+    width: var(--min-width);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-content: center;
+}
+
+.contenido-section-ofertas > :nth-child(1){
+    display: flex;
+    margin-bottom: 22px;
+    align-items: flex-end;
+}
+
+.contenido-section-ofertas > :nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.contenedor-articulo{
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.contenedor-precios{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-top: 1px solid rgb(232, 232, 232);
+}
+
+.contenedor-precios > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+/* ---------------- |SECTION SSCRIPCION| ---------------- */
+
