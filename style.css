@@ -121,7 +121,7 @@ section > :nth-child(1){
 }
     
 
-/* ---------------- |class| ---------------- */
+/* ---------------- |generales| ---------------- */
 .titulo-section{
     font-size: 25px;
     font-weight: 300;
@@ -135,6 +135,7 @@ section > :nth-child(1){
     color: #3483FA;
     margin-left: 16px;
 }
+
 
 
 .precio-articulo{
@@ -153,6 +154,20 @@ section > :nth-child(1){
     font-weight: 600;
     line-height: 16px;
     color: #00c45f;
+}
+
+
+
+.boton-azul{
+    background-color: #3483FA;
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
 }
 
 
@@ -254,4 +269,88 @@ section > :nth-child(1){
 
 
 /* ---------------- |SECTION SSCRIPCION| ---------------- */
+#section-suscripcion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contenido-section-suscripcion{
+    width: var(--min-width);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 7px;
+}
+
+/* Banner morado */
+.suscripcion-banner{
+    background: linear-gradient(90deg, #A90F90 55%, #0C1A51 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    padding: 20px;
+    color: white;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.suscripcion-banner > h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.suscripcion-banner > :last-child{
+    border-left-style: solid;
+    border-width: 2px;
+    padding: 7px;
+}
+
+/* Texto */
+.contenido-section-suscripcion > :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.contenido-section-suscripcion > :nth-child(2) > p{
+    margin-bottom: 32px;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+/* Marcas */
+.suscripcion-item-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suscripcion-item-1 > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suscripcion-item-1 > div > p{
+    width: 240px;
+    margin-left: 10px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/* Boton azul  */
+.contenido-section-suscripcion > :nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 30px;
+    border-top: 1px solid rgb(232, 232, 232);
+}
+
+
 
