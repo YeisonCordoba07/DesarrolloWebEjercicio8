@@ -461,4 +461,61 @@ section > :nth-child(1){
 
 /* ---------------- |SECTION DESCUBRE| ---------------- */
 
+#section-descubre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+
+.contenido-section-descubre{
+    display: flex;
+    flex-direction: column;
+    width: var(--min-width);
+}
+
+.contenido-section-descubre > :first-child{
+    margin-bottom: 22px;
+}
+
+
+
+/* Articulos */
+.contenido-section-descubre > :nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+.articulo-descubre{
+    height: 250px;
+    width: 590px;
+    background-color: white;
+    border-radius: 5px;
+
+    display: flex;
+}
+
+
+/* Titulos */
+.articulo-descubre > img{
+    border-radius: inherit;
+}
+.articulo-descubre > div{
+
+    align-self: center;
+    padding: 32px 8px 32px 32px;
+}
+
+.articulo-descubre > div > span{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 4px;
+}
+
+.articulo-descubre > div > h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 31px;
+    margin-bottom: 13px;
+}
 
