@@ -110,6 +110,7 @@
 
 
 /* ---------------- |MAIN| ---------------- */
+
 main{
     background: #EBEBEB;
 }
@@ -119,9 +120,12 @@ section{
 section > :nth-child(1){
 
 }
-    
+ 
+
+
 
 /* ---------------- |generales| ---------------- */
+
 .titulo-section{
     font-size: 25px;
     font-weight: 300;
@@ -134,6 +138,8 @@ section > :nth-child(1){
 
     color: #3483FA;
     margin-left: 16px;
+    display: flex;
+    align-self: flex-end;
 }
 
 
@@ -169,6 +175,8 @@ section > :nth-child(1){
     border-radius: 5px;
     border-style: none;
 }
+
+
 
 
 /* ---------------- |SECTION INFORMACION| ---------------- */
@@ -220,6 +228,7 @@ section > :nth-child(1){
 
 
 
+
 /* ---------------- |SECTION OFERTAS| ---------------- */
 
 #section-ofertas{
@@ -237,7 +246,7 @@ section > :nth-child(1){
 .contenido-section-ofertas > :nth-child(1){
     display: flex;
     margin-bottom: 22px;
-    align-items: flex-end;
+    /*align-items: flex-end;*/
 }
 
 .contenido-section-ofertas > :nth-child(2){
@@ -268,7 +277,9 @@ section > :nth-child(1){
 
 
 
+
 /* ---------------- |SECTION SSCRIPCION| ---------------- */
+
 #section-suscripcion{
     width: 100%;
     display: flex;
@@ -352,5 +363,102 @@ section > :nth-child(1){
     border-top: 1px solid rgb(232, 232, 232);
 }
 
+
+
+
+/* ---------------- |SECTION PUNTOS| ---------------- */
+
+#section-puntos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+}
+
+.contenido-section-puntos{
+    display: flex;
+    flex-direction: column;
+    width: var(--min-width);
+    justify-content: center;
+}
+
+.contenido-section-puntos > :first-child{
+    margin-bottom: 22px;
+}
+
+
+/* Titulo section */
+.contenido-section-puntos > :first-child{
+    display: flex;
+    align-items: center;
+}
+
+.contenido-section-puntos > :nth-child(2){
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+/* Cartas */
+.carta-puntos{
+    display: flex;
+    align-items: flex-end;
+
+    width: 380px;
+    height: 250px;
+    border-radius: 7px;
+    padding: 15px;
+}
+.carta-puntos > div{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 35%;
+    color: white;
+}
+
+
+/* Letras */
+.carta-puntos > div > span{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16px;
+}
+.carta-puntos > div > h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.carta-puntos > div > p{
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.4000000059604645px;
+}
+
+
+/* Imagenes de fondo */
+.contenido-section-puntos > :nth-child(2) > :nth-child(1){
+    background: url("/img/Widget_Multicontent_Latam_768-x-566px.jpg.png");
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+
+.contenido-section-puntos > :nth-child(2) > :nth-child(2){
+    background: url("/img/HBOMax_widgetmulti_mobdsk_mco_@2x.png");
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+
+.contenido-section-puntos > :nth-child(2) > :nth-child(3){
+    background: url("/img/paramount_widgetmulti_mobdsk_mco_@2x.jpg.png");
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+
+
+
+
+/* ---------------- |SECTION DESCUBRE| ---------------- */
 
 
