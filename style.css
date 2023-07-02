@@ -130,6 +130,8 @@ section > :nth-child(1){
     font-size: 25px;
     font-weight: 300;
     line-height: 31px;
+    color: #666666;
+
 }
 .enlace-subtitulo{
     text-decoration: none;
@@ -625,3 +627,76 @@ section > :nth-child(1){
 
 
 /* ---------------- |SECTION SUPERMERCADO| ---------------- */
+
+#section-supermercado{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-section-supermercado{
+    width: var(--min-width);
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* Titulo */
+.contenido-section-supermercado > :first-child{
+    margin-bottom: 22px;
+}
+
+
+/* Contenido */
+.contenido-supermercado{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+
+}
+
+
+
+/* Imagen grande */
+.contenido-supermercado > :nth-child(1){
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: white;
+    width: 383px;
+    height: 383px;
+    border-radius: 5px;
+}
+.contenido-supermercado > :nth-child(1) > img{
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+
+/* Textos */
+.contenido-supermercado > :nth-child(1) > div{
+    padding: 25px;
+}
+
+.contenido-supermercado > :nth-child(1) > div > span{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 4px;
+}
+
+.contenido-supermercado > :nth-child(1) > div > h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+/* Imagenes pequeñas */
+.imagenes-supermercado{
+    width: 184px;
+    height: 184px;
+    border-radius: inherit;
+}
+
+
