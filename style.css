@@ -700,3 +700,50 @@ section > :nth-child(1){
 }
 
 
+
+
+/* ---------------- |SECTION CATEGORIAS| ---------------- */
+
+#section-categorias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-section-categorias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Titulo section */
+.contenido-section-categorias > :nth-child(1){
+    margin-bottom: 22px;
+}
+
+
+/* Contenido */
+.contenido-section-categorias > :nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(7, 169px);
+    grid-template-rows: 169px 169px;
+    gap: 1.5px;    
+}
+
+.contenedor-categoria{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor-categoria > p{
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #333333;
+}
+
