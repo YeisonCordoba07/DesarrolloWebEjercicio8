@@ -79,32 +79,6 @@
 
 
 
-#section-novedades{
-    width: 100%;
-}
-.novedades{
-    width: 100%;
-    margin: auto;
-    background: url("/img/D_NQ_964867-MLA53990832632_022023-OO.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 340px;
-    display: flex;  
-    justify-content: center;
-}
-
-.boton-novedades{
-    width: 6px;
-    height: 6px;
-    border-radius: 60px;
-    border-color: white;
-    background-color: rgba(0, 0, 0, 0.355);
-    margin: 1.5px;
-    border-style: solid;
-    border-width: 1.5px;
-    margin-bottom: 15px;
-    align-self: flex-end;
-}
 
 
 
@@ -176,6 +150,39 @@ section > :nth-child(1){
     color: white;
     border-radius: 5px;
     border-style: none;
+}
+
+
+
+
+/* ---------------- |SECTION NOVEDADES| ---------------- */
+
+#section-novedades{
+    width: 100%;
+    padding: 0px 0px;
+}
+.novedades{
+    width: 100%;
+    margin: auto;
+    background: url("/img/D_NQ_964867-MLA53990832632_022023-OO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    display: flex;  
+    justify-content: center;
+}
+
+.boton-novedades{
+    width: 6px;
+    height: 6px;
+    border-radius: 60px;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.355);
+    margin: 1.5px;
+    border-style: solid;
+    border-width: 1.5px;
+    margin-bottom: 15px;
+    align-self: flex-end;
 }
 
 
@@ -747,3 +754,123 @@ section > :nth-child(1){
     color: #333333;
 }
 
+
+
+
+/* ---------------- |SECTION SHOPPING| ---------------- */
+
+#section-shopping{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.contenido-section-shopping{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Contenido */
+.contenedor-shopping{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px 45px 20px 45px;
+
+    width: 400px;
+    height: 240px;
+}
+
+.contenedor-shopping > h2{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 16px;
+    color: #4B4B4B;
+
+}
+
+.contenedor-shopping > p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #999999;
+
+}
+
+.contenedor-shopping > a{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ---------------- |SECTION FOOTER| ---------------- */
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+
+    border-top: 1px solid rgba(232, 232, 232, 0.834);
+    border-bottom: 1px solid rgba(232, 232, 232, 0.834);
+    padding: 20px 0px;
+    margin-bottom: 200px;
+}
+
+
+/* Contenido */
+.contenido-footer{
+    width: var(--min-width);
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-footer > ul{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8px;
+
+}
+
+.contenido-footer > ul > a{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #333333;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* Imagenes Certificados */
+.contenido-footer > div{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+/* ---------------- |FIRMA| ---------------- */
+.contenido-footer > span{
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 13px;
+    color: #912525;
+    text-align: center;
+    padding: 100px 100px;
+}
